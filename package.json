@@ -1,7 +1,7 @@
 {
-  "name": "uniswap-swapper",
+  "name": "uniswap-swapping-service",
   "version": "1.0.0",
-  "description": "",
+  "description": "A Node.js server for swapping tokens using Uniswap V3.",
   "main": "app.js",
   "scripts": {
     "start": "node app.js"
@@ -11,7 +11,7 @@
   "license": "ISC",
   "dependencies": {
     "dotenv": "^16.4.7",
-    "ethers": "^5.7.2",
-    "express": "^4.21.2"
+    "express": "^4.21.2",
+    "ethers": "^5.7.2"
   }
 }
