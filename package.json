@@ -1,17 +1,21 @@
 {
-  "name": "uniswap-token-fetcher",
+  "name": "new",
   "version": "1.0.0",
   "description": "",
-  "main": "fetchTokens.js",
+  "main": "swap.js",
+  "dependencies": {
+    "aes-js": "^4.0.0-beta.5",
+    "dotenv": "^16.4.7",
+    "ethers": "^5.7.2",
+    "express": "^4.21.2",
+    "tslib": "^2.7.0",
+    "undici-types": "^6.19.8",
+    "ws": "^8.17.1"
+  },
   "scripts": {
-    "start": "node fetchTokens.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "dotenv": "^16.4.7",
-    "ethers": "^5.7.2",
-    "express": "^4.21.2"
-  }
+  "license": "ISC"
 }
